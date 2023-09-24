@@ -23,7 +23,7 @@ In this repository, you will find folders for each task or project I worked on d
 
 ## Usage
 
-Feel free to explore the tasks and projects in this repository. (https://github.com/shivanshsingh369/GROW-INTERN/tree/main/GROW%20INTERN)
+Feel free to explore the tasks and projects in this repository. (https://github.com/shivanshsingh369/CODSOFT/tree/main/CODSOFT)
 
 
 For each task, you will find detailed instructions and explanations in their respective folders.
