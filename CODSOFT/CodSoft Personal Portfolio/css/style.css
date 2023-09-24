@@ -1,0 +1,275 @@
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color:rgb(52, 53, 52);
+    color: #58bcf6;
+    padding: 20px;
+}
+
+nav ul {
+    float: right;
+    list-style: none;
+    margin-top: -30px;
+
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #58bcf6;
+    padding: 5px 20px;
+    border: 1px solid #f79739;
+    border-radius: 5px;
+    transition: 0.6s ease;
+}
+
+nav a:hover{
+    background-color: #f79739;
+    color: #000;
+}
+
+section {
+    padding: 30px;
+    margin: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.btn {
+    margin-left: 380px;
+    margin-top: 20px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #58bcf6;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: #f79739;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+#hero {
+    background-image: url('../1.png');
+    background-size: cover;
+    background-position: center;
+    color: #333;
+    padding: 300px 0;
+}
+
+#hero h4 {
+    margin-left: 170px;
+    font-size: 30px;
+    margin-top: -200px;
+    margin-right: 100px;
+    
+}
+
+#hero h1 {
+    margin-left: 170px;
+    font-size: 70px;
+    margin-top: -30px;
+    margin-right: 100px;
+    
+}
+
+#hero h1 span{
+    color: #f69739;
+}
+
+#hero p {
+    margin-left: 170px;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+#about {
+    background-color: #f7f7f7;
+    background-image: url('../3.png');
+    padding: 40px;
+}
+
+.about-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-image {
+    flex: 1;
+    max-width: 30%; 
+    padding: 20px;
+}
+
+.about-image img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%; }
+
+.about-text {
+    flex: 1;
+    padding: 20px;
+}
+
+#about h2 {
+    font-size: 48px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #333;
+}
+
+#skills {
+    margin-bottom: 20px;
+    text-decoration: solid;
+    background-image: url(../3.png);
+    border-radius: 5px;
+    padding: 40px;
+}
+
+#skills h1{
+    font-size: 35px;
+}
+
+#skills h2{
+    text-decoration: none;
+    color: #333;
+}
+
+#skills p{
+    font-size: 18px;
+}
+
+#skills img {
+    max-width: 100%;
+    height: auto;
+    border: 0px solid #ddd;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: transform 0.3s; 
+}
+
+#skills img:hover {
+    transform: scale(1.1);
+}
+
+#projects {
+    background-color: #f7f7f7;
+    background-image: url(../3.png);
+    padding: 40px;
+}
+
+.project {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+.project h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+}
+
+#resume {
+    background-color: #fff;
+    background-image: url(../3.png);
+    padding: 40px;
+    text-align: center;
+}
+
+#resume h2{
+    text-align: left;
+}
+
+#resume a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    border: 2px solid #333;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#resume a:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+#contact {
+    background-color: #f7f7f7;
+    background-image: url(../3.png);
+    padding: 40px;
+    text-align: center;
+}
+
+#contact h2{
+    text-align: left;
+}
+
+a[href*="#"] {
+    transition: 0.3s;
+}
+
+a[href*="#"]:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.header {
+    animation: fadeInDown 1s ease-in-out;
+}
+
+.project {
+    transform: scale(1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.project:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
